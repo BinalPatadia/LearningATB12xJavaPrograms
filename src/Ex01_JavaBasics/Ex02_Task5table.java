@@ -7,16 +7,16 @@ public class Ex02_Task5table {
         int num=5;
       char new_line='\n';
 
-        System.out.printf("%d*1",num);
-        System.out.printf(new_line+"%d*2",num);
-        System.out.printf(new_line+"%d*3",num);
-        System.out.printf(new_line+"%d*4",num);
-        System.out.printf(new_line+"%d*5",num);
-        System.out.printf(new_line+"%d*6",num);
-        System.out.printf(new_line+"%d*7",num);
-        System.out.printf(new_line+"%d*8",num);
-        System.out.printf(new_line+"%d*9",num);
-        System.out.printf(new_line+"%d*10",num);
+        System.out.printf("%d*1=%d",num,num*1);
+        System.out.printf(new_line+"%d*2=%d",num,num*2);
+        System.out.printf(new_line+"%d*3=%d",num,num*3);
+        System.out.printf(new_line+"%d*4=%d",num,num*4);
+        System.out.printf(new_line+"%d*5=%d",num,num*5);
+        System.out.printf(new_line+"%d*6=%d",num,num*6);
+        System.out.printf(new_line+"%d*7=%d",num,num*7);
+        System.out.printf(new_line+"%d*8=%d",num,num*8);
+        System.out.printf(new_line+"%d*9=%d",num,num*9);
+        System.out.printf(new_line+"%d*10=%d",num,num*10);
     }
 
 
