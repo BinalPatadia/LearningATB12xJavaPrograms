@@ -14,11 +14,11 @@ public class logicalHackerrankprog {
   int n2= Integer.parseInt(args[1]);
   int n3= Integer.parseInt(args[2]);
 
-      // string result = n1==n2 && n2==n3 ? "Equilateral triangle" : (n1==n2 || n1==n3? " isosceles  triangle" : "scalene") ;
+ //  string result = (n1==n2 && n2==n3) ? (n1==n2 || n1==n3) ? "Equilateral triangle" : "isosceles  triangle":(n1!=n2 && n2!=n3)? "scalene":"isosceles  triangle" ;
 
         //using if-else
         
-        if(n1==n2 && n2==n3)
+     if(n1==n2 && n2==n3)
         {
             System.out.println("Equilateral triangle");
             
@@ -30,16 +30,7 @@ public class logicalHackerrankprog {
         {
             System.out.println("scalene");
         }
-            
-        
-       // System.out.println(result);
-     //   System.out.println(n2);
-       // System.out.println(n3);
 
-
-        
-
-   
     }
 
 
