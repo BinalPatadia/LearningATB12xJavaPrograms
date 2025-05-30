@@ -18,6 +18,7 @@ public class switch_month_leapyear {
         int year = scanner.nextInt();
 
         switch (month) {
+
             case 1, 3, 5, 7, 10, 12:
                 System.out.println("31 days");
                 break;
@@ -34,8 +35,8 @@ public class switch_month_leapyear {
                             System.out.println("28 days");
                         }
 
-                }
-                break;
+            }
+            break;
 
 
             default:
