@@ -26,19 +26,16 @@ public class switch_month_leapyear {
             case 4, 6, 8, 9, 11:
                 System.out.println("30 days");
                 break;
-           case 2:
-               /*switch (year)*/ {
-                    //case 2:
-                        if (year % 4 == 0 && year % 100 != 0 && year % 400 == 0) {
-                            System.out.println("29 days as it is leap year");
-                        } else {
-                            System.out.println("28 days");
-                        }
+            case 2:
+            {
+                if (year % 4 == 0 || year % 400 == 0) {
+                    System.out.println("29 days as it is leap year");
+                } else {
+                    System.out.println("28 days");
+                }
 
             }
             break;
-
-
             default:
                 System.out.println("Invalid month and year");
         }
