@@ -1,3 +1,5 @@
+package Ex01_JavaBasics;
+
 public class TernaryOperator_EvenOdd {
 
     public static void main(String[] args) {
