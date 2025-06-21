@@ -1,4 +1,4 @@
-package Ex01_JavaBasics;
+package TestingAcademy_JavaTest;
 
 import java.util.Scanner;
 
