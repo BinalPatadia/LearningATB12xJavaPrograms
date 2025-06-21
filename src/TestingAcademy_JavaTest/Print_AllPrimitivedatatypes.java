@@ -15,12 +15,12 @@ public class Print_AllPrimitivedatatypes {
         boolean b=true;
 
 
-        System.out.println(i);
-        System.out.println(d);
-        System.out.println(f);
-        System.out.println(l);
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("Integer: " +i);
+        System.out.println("Double: " +d);
+        System.out.println("Float: " +f);
+        System.out.println("Long: " +l);
+        System.out.println("Character: "+a);
+        System.out.println("Boolean: "+b);
 
     }
 }
